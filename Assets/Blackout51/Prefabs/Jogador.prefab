@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7507975276106548222}
   - component: {fileID: 2068095384924909791}
   - component: {fileID: 8771851739645197460}
+  - component: {fileID: 468307104235969808}
   m_Layer: 0
   m_Name: Jogador
   m_TagString: Untagged
@@ -108,6 +109,33 @@ MonoBehaviour:
   velocidadeMovimento: 5
   efeitoGravidade: 2
   forcaSalto: 5
+  multiplicadorSprint: 1.8
+  staminaMaxima: 100
+  staminaAtual: 0
+  gastoStaminaPorSegundo: 25
+  recuperacaoStaminaPorSegundo: 15
+  atrasoRecuperacao: 1
+  percentagemSairExaustao: 0.3
+  estaExausto: 0
+  estaACorrer: 0
+  alturaAgachado: 1.1
+  multiplicadorAgachado: 0.5
+  velocidadeTransicao: 8
+  estaAgachado: 0
+--- !u!114 &468307104235969808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410368894989557009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8020df1bf72025449fbe3585df1eab2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VidaJogador
+  vidaMaxima: 100
+  vidaAtual: 0
 --- !u!1 &1552284059115543622
 GameObject:
   m_ObjectHideFlags: 0
